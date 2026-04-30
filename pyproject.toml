@@ -32,7 +32,7 @@ tabulate = "^0.10.0"
 
 [tool.poetry.group.server.dependencies]
 fastapi = "^0.135.1"
-uvicorn = "^0.41.0"
+uvicorn = ">=0.41,<0.47"
 
 
 [tool.poetry.group.telegram_bot.dependencies]
